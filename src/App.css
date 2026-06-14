@@ -1,0 +1,63 @@
+.send-button{
+      background-color: rgb(60, 144, 60);
+      color:white;
+      padding: 12px 18px;
+      border: none;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-left: 10px;
+      cursor:pointer;
+      
+    }
+    .Text-box{
+      padding:12px 15px;
+      border-radius: 8px;
+      font-size: 12px;
+      border-width: 1px;
+      flex-grow: 1;
+
+    }
+
+    .Textbox-container{
+      display:flex;
+      margin-bottom: 60px;
+
+    }
+
+     .App-container{
+      display:flex;
+      flex-direction: column;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      height:100vh;
+     }
+     .text-user{
+      display:flex;
+      justify-content: end;
+      border-radius: 5px;
+      align-items: start;
+      
+     }
+     .text-robot{
+      display:flex;
+      align-items: start;
+     }
+     .text-message{
+      padding:10px 15px;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      background-color: rgb(215, 215, 206);
+      border-radius: 5px;
+      font-size: 13px;
+      max-width: 300px;
+      
+
+     }
+     .whole-message{
+      flex-grow: 1;
+      margin-top: 20px;
+      overflow:scroll;
+      scrollbar-width: none;
+     }
